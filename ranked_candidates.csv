@@ -1,0 +1,11 @@
+Category,fit_score,matched_skills,missing_skills
+DIGITAL-MEDIA,0.31586633772727235,"['dashboard', 'excel', 'power bi', 'python', 'reporting', 'sql', 'tableau']","['communication', 'data analysis', 'data visualization', 'machine learning', 'numpy', 'pandas', 'statistics']"
+CONSULTANT,0.2736414334260972,"['dashboard', 'data analysis', 'data visualization', 'machine learning', 'python', 'reporting', 'sql']","['communication', 'excel', 'numpy', 'pandas', 'power bi', 'statistics', 'tableau']"
+ENGINEERING,0.255235433811453,"['data analysis', 'data visualization', 'machine learning', 'pandas', 'python', 'sql', 'statistics', 'tableau']","['communication', 'dashboard', 'excel', 'numpy', 'power bi', 'reporting']"
+AUTOMOBILE,0.22804274619567363,"['data analysis', 'data visualization', 'excel', 'numpy', 'pandas', 'python', 'sql', 'statistics', 'tableau']","['communication', 'dashboard', 'machine learning', 'power bi', 'reporting']"
+HEALTHCARE,0.22186394842338786,"['data analysis', 'excel', 'reporting', 'sql', 'tableau']","['communication', 'dashboard', 'data visualization', 'machine learning', 'numpy', 'pandas', 'power bi', 'python', 'statistics']"
+INFORMATION-TECHNOLOGY,0.21721602732734138,"['dashboard', 'data analysis', 'excel', 'python', 'reporting', 'sql', 'tableau']","['communication', 'data visualization', 'machine learning', 'numpy', 'pandas', 'power bi', 'statistics']"
+SALES,0.21487787725862514,"['communication', 'excel', 'sql', 'tableau']","['dashboard', 'data analysis', 'data visualization', 'machine learning', 'numpy', 'pandas', 'power bi', 'python', 'reporting', 'statistics']"
+CONSULTANT,0.2114831031336469,"['communication', 'excel', 'reporting', 'sql', 'tableau']","['dashboard', 'data analysis', 'data visualization', 'machine learning', 'numpy', 'pandas', 'power bi', 'python', 'statistics']"
+SALES,0.1822984959811646,"['communication', 'data analysis', 'excel', 'machine learning', 'statistics', 'tableau']","['dashboard', 'data visualization', 'numpy', 'pandas', 'power bi', 'python', 'reporting', 'sql']"
+BUSINESS-DEVELOPMENT,0.16760676365886068,"['communication', 'excel', 'python', 'reporting', 'sql']","['dashboard', 'data analysis', 'data visualization', 'machine learning', 'numpy', 'pandas', 'power bi', 'statistics', 'tableau']"

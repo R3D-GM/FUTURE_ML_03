@@ -1,0 +1,44 @@
+
+RESUME SCREENING SUMMARY — Data Analyst
+------------------------------------------------
+Total resumes screened: 2484
+Top 10 candidates average fit score: 0.229
+
+How resumes are scored:
+  Each resume and the job description are converted into TF-IDF vectors
+  (word/phrase importance weighting), then compared using cosine similarity —
+  a 0 to 1 score of how closely the resume's language overlaps with the JD's.
+  Higher score = closer overall match to the role's language and requirements.
+
+How skills are extracted:
+  A curated skill vocabulary is matched against resume and JD text using
+  spaCy's phrase matching, which finds exact skill mentions (e.g. "python",
+  "power bi") regardless of surrounding sentence structure.
+
+Why certain candidates rank higher:
+  Candidates rank higher when their resume text more closely overlaps with the
+  JD's terminology and when they mention more of the required skills explicitly.
+
+Most common missing skills among top 10 candidates:
+numpy                 9
+power bi              9
+pandas                8
+data visualization    7
+machine learning      7
+statistics            7
+dashboard             7
+communication         6
+data analysis         4
+reporting             4
+python                4
+excel                 2
+tableau               2
+sql                   1
+
+What this means for a hiring team:
+- The top-ranked list gives recruiters a fast starting shortlist instead of reading
+  every resume manually.
+- The missing-skills breakdown shows where candidates may need a follow-up question
+  in an interview, or where the JD's required skills are hard to find in the pool.
+- Fit score is a language-overlap signal, not a hard filter — recruiters should
+  still review top candidates manually before rejecting anyone below the cutoff.
